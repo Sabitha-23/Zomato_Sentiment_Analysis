@@ -2,6 +2,12 @@
 
 A complete NLP + Machine Learning project that analyzes Zomato customer reviews and predicts sentiment (Positive / Neutral / Negative), deployed as a Streamlit web application.
 
+## 🌐 Live App
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://zomatosentimentanalysis-hbkj6pcmrkt4a26qj5v45c.streamlit.app/#enter-a-restaurant-review)
+
+👉 **[Click here to open the live app](https://zomatosentimentanalysis-hbkj6pcmrkt4a26qj5v45c.streamlit.app/#enter-a-restaurant-review)**
+
 ---
 
 ## 📂 Project Structure
@@ -35,7 +41,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Train the Model (Google Colab or Locally)
-Open `Zomato_Sentiment_Analysis.ipynb` in [Google Colab](https://colab.research.google.com/github/Sabitha-23/Zomato/blob/main/Zomato_Sentiment_Analysis.ipynb) and run all cells.  
+Open `Zomato_Sentiment_Analysis.ipynb` in [Google Colab](https://colab.research.google.com) and run all cells.  
 This generates:
 - `sentiment_model.pkl`
 - `tfidf_vectorizer.pkl`
